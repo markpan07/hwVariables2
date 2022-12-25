@@ -120,7 +120,7 @@ public class Main {
         float ration2LoosingWeight = 0.5f;
         float daysDemand1Ration = goalLoosingWeight / ration1LoosingWeight;
         float daysDemand2Ration = goalLoosingWeight / ration2LoosingWeight;
-        System.out.println("В среднем понадобится " + (daysDemand1Ration + daysDemand2Ration) / 2 + " дней для похудения.");
+        System.out.println("При похудении на 250г понадобится " + daysDemand1Ration + " дней, на 500г - " + daysDemand2Ration + ". В среднем понадобится " + (daysDemand1Ration + daysDemand2Ration) / 2 + " дней для похудения.");
 
     }
 
